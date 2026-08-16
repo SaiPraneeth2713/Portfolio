@@ -1670,4 +1670,15 @@ footer .social-links a {
     font-size:
       1.35rem;
   }
+  .resume-link {
+  border: 1px solid var(--accent-color);
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.resume-link:hover {
+  background: var(--accent-color);
+  color: #ffffff;
+}
 }
